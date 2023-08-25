@@ -35,7 +35,7 @@ public class AppTest {
     }
 
     @Test
-    public void testValidateField() {
+    public void testValidateField1() {
         int[][] battleField1 = {};
         assertThat(Main.isValidField(battleField1)).isTrue();
 
